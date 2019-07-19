@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.6.24.0" projectFile="D:\cf\back-end\Awsom API Documentation\Awsom API Documentation.shfbproj" started="18-Jul-19 15:20:02">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    D:\cf\back-end\Awsom API Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2019.6.24.0
+Copyright &#169; 2006-2019, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\cf\back-end\back-end-api-server\awsomAPI.csproj
+    Found project &#39;D:\cf\back-end\back-end-api-server\awsomAPI.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;D:\cf\back-end\back-end-api-server\bin\Debug\netcoreapp2.2\awsomAPI.dll&#39;
+SHFB: Warning BE0007: A project with a different or higher framework version was found.  Changing project FrameworkVersion property from &#39;.NET Framework 4.5&#39; to &#39;.NET Framework 4.7.2&#39; for the build.
+
+References to include:
+    D:\cf\back-end\back-end-api-server\bin\Debug\netcoreapp2.2\awsomAPI.dll
+    Microsoft.EntityFrameworkCore
+    Microsoft.EntityFrameworkCore.Abstractions
+    Microsoft.EntityFrameworkCore.InMemory
+    Microsoft.EntityFrameworkCore.Relational
+    Microsoft.Extensions.Caching.Abstractions
+    Microsoft.Extensions.Caching.Memory
+    Microsoft.Extensions.Configuration
+    Microsoft.Extensions.Configuration.Abstractions
+    Microsoft.Extensions.Configuration.Binder
+    Microsoft.Extensions.DependencyInjection
+    Microsoft.Extensions.DependencyInjection.Abstractions
+    Microsoft.Extensions.Logging
+    Microsoft.Extensions.Logging.Abstractions
+    Microsoft.Extensions.Options
+    Microsoft.Extensions.Primitives
+    Npgsql
+    Npgsql.EntityFrameworkCore.PostgreSQL
+    Remotion.Linq
+    System.Collections.Immutable
+    System.Diagnostics.DiagnosticSource
+    System.Interactive.Async
+    System.Linq.Queryable
+    System.Runtime.CompilerServices.Unsafe
+
+Copying XML comments files
+    D:\cf\back-end\back-end-api-server\awsomAPI.xml -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\awsomAPI.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0110
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 18-Jul-19 15:20:04.
+Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+_HandlePackageFileConflicts:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets(33,5): message NETSDK1041: Encountered conflict between &#39;Reference:System.Linq.Queryable&#39; and &#39;Platform:System.Linq.Queryable.dll&#39;.  NETSDK1033: Choosing &#39;Platform:System.Linq.Queryable.dll&#39; because AssemblyVersion &#39;4.0.1.0&#39; is greater than &#39;4.0.0.0&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 128 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Mvc.Core (Microsoft.AspNetCore.Mvc.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+  Using automatic redirect &#39;System.Diagnostics.Debug, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Diagnostics.Debug, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Hosting.Abstractions (Microsoft.AspNetCore.Hosting.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Http.Abstractions (Microsoft.AspNetCore.Http.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Authentication.JwtBearer (Microsoft.AspNetCore.Authentication.JwtBearer, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Authentication.Abstractions (Microsoft.AspNetCore.Authentication.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Cors (Microsoft.AspNetCore.Cors, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+  Using automatic redirect &#39;System.ComponentModel.Annotations, Version=4.0.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using automatic redirect &#39;Microsoft.EntityFrameworkCore, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60&#39; in place of &#39;Microsoft.EntityFrameworkCore, Version=2.2.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60&#39;
+  Using automatic redirect &#39;System.Threading.Tasks, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Threading.Tasks, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using automatic redirect &#39;System.Collections, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Collections, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.IdentityModel.Tokens.Jwt (System.IdentityModel.Tokens.Jwt, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.IdentityModel.Tokens (Microsoft.IdentityModel.Tokens, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+  Using automatic redirect &#39;System.Text.RegularExpressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Text.RegularExpressions, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Authorization (Microsoft.AspNetCore.Authorization, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.AspNetCore.Razor.Runtime (Microsoft.AspNetCore.Razor.Runtime, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: Microsoft.Extensions.Configuration.UserSecrets (Microsoft.Extensions.Configuration.UserSecrets, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60) required by awsomAPI [D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj]
+  Wrote information on 4 namespaces, 11 types, and 63 members
+  Copying file from &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\reflection.org&quot; to &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\reflection.all&quot;.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:03.0110
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 18-Jul-19 15:20:07.
+Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\reflection.xml&quot; to &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\reflection.nofilenames&quot;.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:00.4104
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.1252
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2019.6.24.0
+Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\*.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\System.Runtime.CompilerServices.Unsafe.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Npgsql.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.EntityFrameworkCore.Relational.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\System.Interactive.Async.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\System.Diagnostics.DiagnosticSource.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\System.Collections.Immutable.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\System.Linq.Queryable.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Remotion.Linq.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Logging.Abstractions.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Configuration.Abstractions.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Configuration.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Configuration.Binder.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Logging.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.DependencyInjection.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Options.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Primitives.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Caching.Abstractions.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.Extensions.Caching.Memory.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.EntityFrameworkCore.Abstractions.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.EntityFrameworkCore.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\Microsoft.EntityFrameworkCore.InMemory.xml
+Indexing D:\cf\back-end\Awsom API Documentation\Help\Working\awsomAPI.xml
+Indexed 171696 members in 150 file(s).  23 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:00.9413
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;D:\cf\back-end\Awsom API Documentation\Content\Welcome.aml&#39;
+    D:\cf\back-end\Awsom API Documentation\Content\Welcome.aml -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\ddueXml\8b7b365b-7d2a-45a3-9b5f-003f37e1d095.xml
+    Parsing topic file &#39;D:\cf\back-end\Awsom API Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    D:\cf\back-end\Awsom API Documentation\Content\VersionHistory\VersionHistory.aml -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\ddueXml\cf297d50-5ef9-49d0-941e-da66666013f8.xml
+    Parsing topic file &#39;D:\cf\back-end\Awsom API Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    D:\cf\back-end\Awsom API Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\ddueXml\2a239f38-c240-4582-af45-7bda1315400a.xml
+    Last step completed in 00:00:00.0280
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00.0090
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+D:\cf\back-end\Awsom API Documentation\icons\Help.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00.0040
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 18-Jul-19 15:20:08.
+Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.2051
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.2200
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\cf\back-end\Awsom API Documentation\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00.0050
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 18-Jul-19 15:20:08.
+Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2019.6.24.0)
+  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:awsomAPI] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Program.CreateWebHostBuilder(System.String[])] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Hosting.IWebHostBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)] MSDN URL not found for target &#39;T:Microsoft.Extensions.Configuration.IConfiguration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:awsomAPI.Startup.Configuration] MSDN URL not found for target &#39;T:Microsoft.Extensions.Configuration.IConfiguration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Builder.IApplicationBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Hosting.IHostingEnvironment&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)] MSDN URL not found for target &#39;T:Microsoft.Extensions.DependencyInjection.IServiceCollection&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:awsomAPI.Controllers] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:awsomAPI.Controllers.TrialRequestController] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Controllers.TrialRequestController] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ControllerBase&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.TrialRequestController.AddNewTrialRequest(System.Void)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.TrialRequestController.AddNewTrialRequest(System.Void)] Missing &lt;returns&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.TrialRequestController.AddNewTrialRequest(System.Void)] Missing &lt;param name=&quot;trialRequest&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.TrialRequestController.AddNewTrialRequest(System.Void)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.TrialRequestController.GetTrialRequests] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.TrialRequestController.SelectStudent(awsomAPI.Models.StudentTeacherSelectedRelation)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.TrialRequestController.TrialRequestDetailView(System.Void)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.TrialRequestController.TrialRequestDetailView(System.Void)] Missing &lt;returns&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.TrialRequestController.TrialRequestDetailView(System.Void)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.TrialRequestController.TrialRequestDetailView(System.Void)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Controllers.UsersController] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ControllerBase&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.UsersController.#ctor(awsomAPI.Models.AwsomApiContext,Microsoft.Extensions.Configuration.IConfiguration)] MSDN URL not found for target &#39;T:Microsoft.Extensions.Configuration.IConfiguration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.AddUser(System.Void)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.AddUser(System.Void)] Missing &lt;returns&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.AddUser(System.Void)] Missing &lt;param name=&quot;user&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.UsersController.AddUser(System.Void)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:awsomAPI.Controllers.UsersController.Configuration] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:awsomAPI.Controllers.UsersController.Configuration] MSDN URL not found for target &#39;T:Microsoft.Extensions.Configuration.IConfiguration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.GetUser(System.Void)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.GetUser(System.Void)] Missing &lt;returns&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.GetUser(System.Void)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.UsersController.GetUser(System.Void)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.UsersController.GetUsers] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.Signin(System.Void)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.Signin(System.Void)] Missing &lt;returns&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Controllers.UsersController.Signin(System.Void)] Missing &lt;param name=&quot;userFromFrontend&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Controllers.UsersController.Signin(System.Void)] MSDN URL not found for target &#39;T:Microsoft.AspNetCore.Mvc.ActionResult`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:awsomAPI.Migrations] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:awsomAPI.Migrations.InitialMigration] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Metadata.IModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Metadata.IModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.InitialMigration] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ModelBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Metadata.IModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.Migrations.Migration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.ActiveProvider&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.DownOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.TargetModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Metadata.IModel&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.Migrations.Migration.UpOperations&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Operations.MigrationOperation&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Migrations.StudentTeacherRelationsModel] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.Migration&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] Missing &lt;param name=&quot;modelBuilder&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ModelBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] Missing &lt;param name=&quot;migrationBuilder&quot;/&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Migrations.StudentTeacherRelationsModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:awsomAPI.Models] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContext.ChangeTracker&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContext.Database&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContext.Model&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Add(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Add``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Object,System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync``1(``0,System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRangeAsync(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRangeAsync(System.Collections.Generic.IEnumerable{System.Object},System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AttachRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AttachRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Dispose&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Entry(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Entry``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Find(System.Type,System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Find``1(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Type,System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Type,System.Object[],System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Object[],System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContextOptions&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.IsConfigured&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Query``1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbQuery`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Remove(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Remove``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.RemoveRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.RemoveRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges(System.Boolean)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Set``1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Update(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Update``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.UpdateRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.UpdateRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Add(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Add``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync(System.Object,System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddAsync``1(``0,System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRangeAsync(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AddRangeAsync(System.Collections.Generic.IEnumerable{System.Object},System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AttachRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.AttachRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Dispose&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Entry(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Entry``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Find(System.Type,System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Find``1(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Type,System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync(System.Type,System.Object[],System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.FindAsync``1(System.Object[],System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContextOptions&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContextOptionsBuilder.IsConfigured&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Query``1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbQuery`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Remove(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Remove``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.RemoveRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.RemoveRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges(System.Boolean)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(System.Boolean,System.Threading.CancellationToken)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Set``1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Update(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Update``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach``1(``0)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.State&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.UpdateRange(System.Object[])&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.UpdateRange(System.Collections.Generic.IEnumerable{System.Object})&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.SaveChanges&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;M:Microsoft.EntityFrameworkCore.DbContext.Attach(System.Object)&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Unchanged&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Modified&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;F:Microsoft.EntityFrameworkCore.EntityState.Added&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContext.ChangeTracker&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContext.Database&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;P:Microsoft.EntityFrameworkCore.DbContext.Model&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:awsomAPI.Models.AwsomApiContext] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContext&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:awsomAPI.Models.AwsomApiContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{awsomAPI.Models.AwsomApiContext})] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbContextOptions`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:awsomAPI.Models.AwsomApiContext.TeacherSelections] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:awsomAPI.Models.AwsomApiContext.TrialRequests] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:awsomAPI.Models.AwsomApiContext.Users] MSDN URL not found for target &#39;T:Microsoft.EntityFrameworkCore.DbSet`1&#39;. [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:awsomAPI.Models.Role.Admin] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:awsomAPI.Models.Role.User] Missing &lt;summary&gt; documentation [D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj]
+  Processed 100 topic(s)
+  452 warning(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 4 of 30.
+Done Building Project &quot;D:\cf\back-end\Awsom API Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:06.5025
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2019.6.24.0
+Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website
+Processed 100 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to D:\cf\back-end\Awsom API Documentation\Help\Working\WebKI.xml
+Saving website table of contents to D:\cf\back-end\Awsom API Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00.1801
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; D:\cf\back-end\Awsom API Documentation\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
+    Last step completed in 00:00:00.2705
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00.1010
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 235 files for the website content
+    Last step completed in 00:00:00.1700
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1322
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 18-Jul-19 15:20:16.  Total time: 00:00:13.9443
+
+</buildStep>
+</shfbBuild>

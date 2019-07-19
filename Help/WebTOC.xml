@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Awsom Scheduler API" Url="html/8b7b365b-7d2a-45a3-9b5f-003f37e1d095.htm" />
+  <HelpTOCNode Id="959d6b3c-7cac-486d-b993-e217d41e9ade" Title="Version History" Url="html/cf297d50-5ef9-49d0-941e-da66666013f8.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/2a239f38-c240-4582-af45-7bda1315400a.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="aba8970e-8d13-4993-b40e-49a63690257f" Title="awsomAPI" Url="html/50e413e3-c6d2-8907-d8f9-69878883e4a5.htm">
+    <HelpTOCNode Id="1196bfe9-f01f-40b5-87ac-ca08490cb758" Title="Program Class" Url="html/328558db-ef73-62a3-b4b1-afbe10388981.htm">
+      <HelpTOCNode Title="Program Constructor " Url="html/70635aa4-e000-f71b-6e35-e37e00929782.htm" />
+      <HelpTOCNode Id="1655200f-27e8-4e2c-8356-1f2f98a30612" Title="Program Methods" Url="html/59be7d67-f786-7f9e-4169-23a73ca28993.htm">
+        <HelpTOCNode Title="CreateWebHostBuilder Method " Url="html/66c24de9-1537-8bb2-1c0b-136bbee08f24.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/bcc92ebf-7832-459b-c55e-461db6a6333e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="623bb12b-37b1-498f-ac0a-286b6c61f74b" Title="Startup Class" Url="html/299a440c-baec-44b7-9d0c-ddb8a8587d00.htm">
+      <HelpTOCNode Title="Startup Constructor " Url="html/d647ae8f-b269-8996-9f1a-5c1e7ece8a40.htm" />
+      <HelpTOCNode Id="d284f713-b36e-49f7-ae39-89ddb3966d36" Title="Startup Properties" Url="html/2dee222f-da88-606d-ba59-e9a09c31a01c.htm">
+        <HelpTOCNode Title="Configuration Property " Url="html/81c1da90-b0ea-ebea-e1b4-75ea0cf77890.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8fee44e8-c45f-4a70-82b2-59c6bfe69e26" Title="Startup Methods" Url="html/859d3010-5a89-bc23-c1e8-a49367931bec.htm">
+        <HelpTOCNode Title="Configure Method " Url="html/a5c79f71-20f6-e49b-fcb4-fbe4f4706116.htm" />
+        <HelpTOCNode Title="ConfigureServices Method " Url="html/cbae851d-eaa1-0a7e-feb9-25e97b2e9778.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="efc1dc6b-be36-466b-85ba-f31d9fd1532f" Title="awsomAPI.Controllers" Url="html/3de68f61-3891-2baa-a59f-a3770758d73c.htm">
+    <HelpTOCNode Id="ecc114af-3e0d-4e8d-80b8-315821a2afc4" Title="TrialRequestController Class" Url="html/9b95785b-77c1-9ae4-d1ee-8a8b56a18756.htm">
+      <HelpTOCNode Title="TrialRequestController Constructor " Url="html/49b41aa7-6850-3849-e0de-ba9a35918bee.htm" />
+      <HelpTOCNode Id="da0a3a9a-52f7-40a1-96da-f6862e85b8e0" Title="TrialRequestController Methods" Url="html/71d57bad-b7c8-80f9-f945-95d08a4bca70.htm">
+        <HelpTOCNode Title="AddNewTrialRequest Method " Url="html/26c4fa8b-5383-c600-e2b9-f198173b62b9.htm" />
+        <HelpTOCNode Title="GetTrialRequests Method " Url="html/bfdca306-7113-0915-3db3-93f7b6066b69.htm" />
+        <HelpTOCNode Title="SelectStudent Method " Url="html/d89f411f-3975-a63e-fc90-32814d6591bb.htm" />
+        <HelpTOCNode Title="TrialRequestDetailView Method " Url="html/2e17dcdd-f845-3c4d-3655-25d83f117e5a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f3406c7c-c734-4d29-b719-90e0ead5605f" Title="UsersController Class" Url="html/9cd3d4e8-0222-39f0-a50b-b9a5894aa449.htm">
+      <HelpTOCNode Title="UsersController Constructor " Url="html/7801e1c6-1c97-bbd8-a3cb-aad5f98ba0bc.htm" />
+      <HelpTOCNode Id="4f6c056c-3125-4967-a7eb-2f7d7d434a48" Title="UsersController Properties" Url="html/5efefcaf-bb6b-a61f-6c05-57785760cb5b.htm">
+        <HelpTOCNode Title="Configuration Property " Url="html/e8921679-fbf8-c621-f7f1-74cbac1864db.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="793852e1-5cb4-4f14-96bf-a8b24885963a" Title="UsersController Methods" Url="html/2ffbfa18-c001-8cba-f9b8-a903ac43d808.htm">
+        <HelpTOCNode Title="AddUser Method " Url="html/96d6e1e6-2011-cad7-6b4b-d7278530a934.htm" />
+        <HelpTOCNode Title="GetUser Method " Url="html/3b036440-9276-b88d-891e-0b93f2056843.htm" />
+        <HelpTOCNode Title="GetUsers Method " Url="html/9b366fe8-2c37-adab-a493-ffd6487a0227.htm" />
+        <HelpTOCNode Title="Signin Method " Url="html/e0153b89-ee0d-d4cf-ec9e-1135ee722d58.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="1ed487fd-4339-4390-b3a9-1f87e70d83b0" Title="awsomAPI.Migrations" Url="html/a8ef19c4-6391-68b8-c0c0-54bc0e8a5ef2.htm">
+    <HelpTOCNode Id="e28f4878-3c1e-4640-b889-a8e396dd01c3" Title="InitialMigration Class" Url="html/5b4de5ac-a530-2806-61c5-8a3bb6ec56e6.htm">
+      <HelpTOCNode Title="InitialMigration Constructor " Url="html/9f72aeeb-123d-226c-4e89-cd27f90a9db8.htm" />
+      <HelpTOCNode Title="InitialMigration Properties" Url="html/19d9d94b-ec3a-d305-2802-358624291667.htm" />
+      <HelpTOCNode Id="7eb2d197-a508-423a-9fd8-041b7d487f33" Title="InitialMigration Methods" Url="html/6bdaa692-5171-d1c5-dfdd-a69026366bb7.htm">
+        <HelpTOCNode Title="BuildTargetModel Method " Url="html/3e13073e-99c9-57ba-88c7-e28686877e97.htm" />
+        <HelpTOCNode Title="Down Method " Url="html/2e7859d9-86d8-71b3-fa1f-345e6a4e4aad.htm" />
+        <HelpTOCNode Title="Up Method " Url="html/6ad1c2cc-aad9-20ce-f0f3-bf1417330f47.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c63ac92-b16b-405d-b245-58977d784993" Title="StudentTeacherRelationsModel Class" Url="html/e8babd00-eee3-ebe3-57e4-103110b49628.htm">
+      <HelpTOCNode Title="StudentTeacherRelationsModel Constructor " Url="html/5bfaa25a-56fc-e218-f379-bf8a9062ae30.htm" />
+      <HelpTOCNode Title="StudentTeacherRelationsModel Properties" Url="html/69e59cf7-d1ef-aa18-af68-b7d28cfe3cdb.htm" />
+      <HelpTOCNode Id="2d705eb3-9db4-4439-8e83-e1b2d80457ae" Title="StudentTeacherRelationsModel Methods" Url="html/7ad9ca20-a1a9-0837-8c2d-ca404e941710.htm">
+        <HelpTOCNode Title="BuildTargetModel Method " Url="html/db142ce2-d7e2-4be0-9949-e139e996b00a.htm" />
+        <HelpTOCNode Title="Down Method " Url="html/ccc00b34-7596-ff04-9884-4bf541ac7fe7.htm" />
+        <HelpTOCNode Title="Up Method " Url="html/3aa87b9b-5c04-9c9f-5670-0f40d6249d57.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="e900c824-63be-459a-be91-ec7eb83d742a" Title="awsomAPI.Models" Url="html/4276d4f1-1a54-0d5b-94bf-01c051eebd9e.htm">
+    <HelpTOCNode Id="6a0b5283-ee3c-4749-9adb-22163eaf03e7" Title="AwsomApiContext Class" Url="html/0085c9ac-26c2-f2dd-40f0-9e20ebc91c29.htm">
+      <HelpTOCNode Title="AwsomApiContext Constructor " Url="html/ffdedb97-829d-986c-8c67-ca12e6b64256.htm" />
+      <HelpTOCNode Id="ed52deb0-3b18-4900-89b5-9e90b13fa16e" Title="AwsomApiContext Properties" Url="html/5b60beaf-377b-5cc9-59d4-0133984f33ba.htm">
+        <HelpTOCNode Title="TeacherSelections Property " Url="html/ad7eb3f7-4048-df74-17a5-60e079561394.htm" />
+        <HelpTOCNode Title="TrialRequests Property " Url="html/2e52c91a-54f4-7104-9f90-8369af387b53.htm" />
+        <HelpTOCNode Title="Users Property " Url="html/5f97642a-888c-14ad-0e21-2bf4e5f7da2e.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AwsomApiContext Methods" Url="html/02458cbf-0191-2fd7-9eda-7eab6a022bb4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4255c6f4-8319-4c52-bdee-7d2c6526b877" Title="Role Class" Url="html/0878666c-f313-004e-b68b-5d029e44c17a.htm">
+      <HelpTOCNode Id="b498fa8d-1724-4bcf-8d0d-6d6a4fc7348f" Title="Role Fields" Url="html/b8d3b439-98b9-9c58-f0a9-48493812c7ca.htm">
+        <HelpTOCNode Title="Admin Field" Url="html/887a33e6-56cf-bf32-d812-e1dfcad19a21.htm" />
+        <HelpTOCNode Title="User Field" Url="html/61e76c12-5918-718a-c401-c8bb1a2dd19c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b76f9eb-7e60-4606-8b06-81840e35f618" Title="StudentTeacherSelectedRelation Class" Url="html/4ec40bf7-b256-82c2-f74b-5cacf103e47e.htm">
+      <HelpTOCNode Title="StudentTeacherSelectedRelation Constructor " Url="html/00352b67-70bb-eca9-83c8-598bbcbe0d87.htm" />
+      <HelpTOCNode Id="86c457f8-9a5b-4337-ba85-556d6490909c" Title="StudentTeacherSelectedRelation Properties" Url="html/e4de4a84-adca-0bdb-e049-04e3a5d76c9c.htm">
+        <HelpTOCNode Title="Id Property " Url="html/17d3a0ea-5037-d55b-f643-0d83ad983d8a.htm" />
+        <HelpTOCNode Title="TeacherId Property " Url="html/2fb01d67-572a-9384-b2b5-b8c0d6f9bb0d.htm" />
+        <HelpTOCNode Title="TrialRequestId Property " Url="html/1de86e65-1749-08f3-6a22-1a3b60ad086b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StudentTeacherSelectedRelation Methods" Url="html/09086e26-1889-a7a7-214f-c1cc526f9a6f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="35d83697-6571-4d59-ade8-c15e6afb6b3f" Title="TrialRequest Class" Url="html/36fbbc1b-0db5-baf7-6f4c-2591ca1e6478.htm">
+      <HelpTOCNode Title="TrialRequest Constructor " Url="html/295ab46a-a137-5bb8-daf5-e51aafa02946.htm" />
+      <HelpTOCNode Id="be77aa56-ec46-44d0-9b0f-9bdd00d85ba8" Title="TrialRequest Properties" Url="html/7cc7120a-19be-cf93-49e2-473a8acbad26.htm">
+        <HelpTOCNode Title="Address Property " Url="html/9b11d853-af04-1eab-95a2-5b1f7eec87ae.htm" />
+        <HelpTOCNode Title="Availability Property " Url="html/af5e5858-d49f-bde5-5579-5f358532d824.htm" />
+        <HelpTOCNode Title="City Property " Url="html/fa3a2cba-b7ef-a257-0e2f-1128b26b5633.htm" />
+        <HelpTOCNode Title="Email Property " Url="html/e1ba8fa7-c7a4-c746-5ea5-4554e43db18c.htm" />
+        <HelpTOCNode Title="Experience Property " Url="html/fb54a250-0f37-187e-eff4-56ec3fafcbd0.htm" />
+        <HelpTOCNode Title="HasInstrument Property " Url="html/8611f9bf-87f7-86c5-c14e-2ae597029585.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/87ffeeab-f907-a254-0161-2f5a144d0705.htm" />
+        <HelpTOCNode Title="Instrument Property " Url="html/ecfa0a0b-435d-c001-6858-482454091da0.htm" />
+        <HelpTOCNode Title="Notes Property " Url="html/f2c795fe-e076-4508-d688-54573d016419.htm" />
+        <HelpTOCNode Title="ParentName Property " Url="html/df3aa6e3-65c9-159e-9fd9-59e442b44b67.htm" />
+        <HelpTOCNode Title="Phone Property " Url="html/10687243-1466-d240-0760-0703736ad17e.htm" />
+        <HelpTOCNode Title="Region Property " Url="html/467ccac6-3850-a402-a1fa-f8690da53eb7.htm" />
+        <HelpTOCNode Title="StudentBirthDate Property " Url="html/601a0808-4704-f0ad-b739-6dc0e6296391.htm" />
+        <HelpTOCNode Title="StudentName Property " Url="html/64f5d061-8aca-8d53-4ecf-370dd4dbe194.htm" />
+        <HelpTOCNode Title="ZipCode Property " Url="html/1a44bc4d-305c-7b35-b21f-f41689a072e8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TrialRequest Methods" Url="html/f4ef909a-4dbb-df29-04db-26daffc44edc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="84f175b9-3772-4f1b-a190-7e93cd4a2d31" Title="User Class" Url="html/f70c46f9-ff9c-dd67-5439-cdf23ad5de9f.htm">
+      <HelpTOCNode Title="User Constructor " Url="html/0d3f680b-a2ad-51f4-182f-5d69b468d3f9.htm" />
+      <HelpTOCNode Id="aa520d12-e66c-4275-bbdc-ef9ab47e754d" Title="User Properties" Url="html/f86c3e57-3116-834f-3206-818ec7b6aa0f.htm">
+        <HelpTOCNode Title="Address Property " Url="html/b09e7837-d2e7-039c-0bf3-22c5dd2a98b2.htm" />
+        <HelpTOCNode Title="City Property " Url="html/04432109-4a28-c75b-4569-83ac5b1f6930.htm" />
+        <HelpTOCNode Title="Email Property " Url="html/a0e78c90-c230-fcdf-6922-6c9c27b52b0a.htm" />
+        <HelpTOCNode Title="Id Property " Url="html/2d18ef47-1741-3894-be34-67bbba708e02.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/2c9d69b0-2327-4561-ec4c-d61ec1005b1e.htm" />
+        <HelpTOCNode Title="Password Property " Url="html/1b9db431-4aee-7a80-febc-159dbf9d3fc1.htm" />
+        <HelpTOCNode Title="Region Property " Url="html/4e03e5d7-fc39-34d7-8841-9da8befced41.htm" />
+        <HelpTOCNode Title="Role Property " Url="html/ebba72fd-d0af-26dd-f8b3-918b7c8d2d26.htm" />
+        <HelpTOCNode Title="Token Property " Url="html/8d284166-a633-c5c5-06a4-0c5966043961.htm" />
+        <HelpTOCNode Title="ZipCode Property " Url="html/276c7c96-e99b-175d-c707-c56ea97b82c0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="User Methods" Url="html/c739e0b9-a14c-8eaa-41ce-7d51993e3f8b.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

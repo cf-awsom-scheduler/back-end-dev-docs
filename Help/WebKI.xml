@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddNewTrialRequest method" Url="html/26c4fa8b-5383-c600-e2b9-f198173b62b9.htm" />
+  <HelpKINode Title="Address property">
+    <HelpKINode Title="TrialRequest.Address Property " Url="html/9b11d853-af04-1eab-95a2-5b1f7eec87ae.htm" />
+    <HelpKINode Title="User.Address Property " Url="html/b09e7837-d2e7-039c-0bf3-22c5dd2a98b2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddUser method" Url="html/96d6e1e6-2011-cad7-6b4b-d7278530a934.htm" />
+  <HelpKINode Title="Admin field" Url="html/887a33e6-56cf-bf32-d812-e1dfcad19a21.htm" />
+  <HelpKINode Title="Availability property" Url="html/af5e5858-d49f-bde5-5579-5f358532d824.htm" />
+  <HelpKINode Title="awsomAPI namespace" Url="html/50e413e3-c6d2-8907-d8f9-69878883e4a5.htm" />
+  <HelpKINode Title="awsomAPI.Controllers namespace" Url="html/3de68f61-3891-2baa-a59f-a3770758d73c.htm" />
+  <HelpKINode Title="awsomAPI.Controllers.TrialRequestController class" Url="html/9b95785b-77c1-9ae4-d1ee-8a8b56a18756.htm" />
+  <HelpKINode Title="awsomAPI.Controllers.UsersController class" Url="html/9cd3d4e8-0222-39f0-a50b-b9a5894aa449.htm" />
+  <HelpKINode Title="awsomAPI.Migrations namespace" Url="html/a8ef19c4-6391-68b8-c0c0-54bc0e8a5ef2.htm" />
+  <HelpKINode Title="awsomAPI.Migrations.InitialMigration class" Url="html/5b4de5ac-a530-2806-61c5-8a3bb6ec56e6.htm" />
+  <HelpKINode Title="awsomAPI.Migrations.StudentTeacherRelationsModel class" Url="html/e8babd00-eee3-ebe3-57e4-103110b49628.htm" />
+  <HelpKINode Title="awsomAPI.Models namespace" Url="html/4276d4f1-1a54-0d5b-94bf-01c051eebd9e.htm" />
+  <HelpKINode Title="awsomAPI.Models.AwsomApiContext class" Url="html/0085c9ac-26c2-f2dd-40f0-9e20ebc91c29.htm" />
+  <HelpKINode Title="awsomAPI.Models.Role class" Url="html/0878666c-f313-004e-b68b-5d029e44c17a.htm" />
+  <HelpKINode Title="awsomAPI.Models.StudentTeacherSelectedRelation class" Url="html/4ec40bf7-b256-82c2-f74b-5cacf103e47e.htm" />
+  <HelpKINode Title="awsomAPI.Models.TrialRequest class" Url="html/36fbbc1b-0db5-baf7-6f4c-2591ca1e6478.htm" />
+  <HelpKINode Title="awsomAPI.Models.User class" Url="html/f70c46f9-ff9c-dd67-5439-cdf23ad5de9f.htm" />
+  <HelpKINode Title="awsomAPI.Program class" Url="html/328558db-ef73-62a3-b4b1-afbe10388981.htm" />
+  <HelpKINode Title="awsomAPI.Startup class" Url="html/299a440c-baec-44b7-9d0c-ddb8a8587d00.htm" />
+  <HelpKINode Title="AwsomApiContext class">
+    <HelpKINode Title="AwsomApiContext Class" Url="html/0085c9ac-26c2-f2dd-40f0-9e20ebc91c29.htm" />
+    <HelpKINode Title="constructor" Url="html/ffdedb97-829d-986c-8c67-ca12e6b64256.htm" />
+    <HelpKINode Title="methods" Url="html/02458cbf-0191-2fd7-9eda-7eab6a022bb4.htm" />
+    <HelpKINode Title="properties" Url="html/5b60beaf-377b-5cc9-59d4-0133984f33ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AwsomApiContext.AwsomApiContext constructor" Url="html/ffdedb97-829d-986c-8c67-ca12e6b64256.htm" />
+  <HelpKINode Title="AwsomApiContext.TeacherSelections property" Url="html/ad7eb3f7-4048-df74-17a5-60e079561394.htm" />
+  <HelpKINode Title="AwsomApiContext.TrialRequests property" Url="html/2e52c91a-54f4-7104-9f90-8369af387b53.htm" />
+  <HelpKINode Title="AwsomApiContext.Users property" Url="html/5f97642a-888c-14ad-0e21-2bf4e5f7da2e.htm" />
+  <HelpKINode Title="BuildTargetModel method">
+    <HelpKINode Title="InitialMigration.BuildTargetModel Method " Url="html/3e13073e-99c9-57ba-88c7-e28686877e97.htm" />
+    <HelpKINode Title="StudentTeacherRelationsModel.BuildTargetModel Method " Url="html/db142ce2-d7e2-4be0-9949-e139e996b00a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="City property">
+    <HelpKINode Title="TrialRequest.City Property " Url="html/fa3a2cba-b7ef-a257-0e2f-1128b26b5633.htm" />
+    <HelpKINode Title="User.City Property " Url="html/04432109-4a28-c75b-4569-83ac5b1f6930.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Configuration property">
+    <HelpKINode Title="Startup.Configuration Property " Url="html/81c1da90-b0ea-ebea-e1b4-75ea0cf77890.htm" />
+    <HelpKINode Title="UsersController.Configuration Property " Url="html/e8921679-fbf8-c621-f7f1-74cbac1864db.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Configure method" Url="html/a5c79f71-20f6-e49b-fcb4-fbe4f4706116.htm" />
+  <HelpKINode Title="ConfigureServices method" Url="html/cbae851d-eaa1-0a7e-feb9-25e97b2e9778.htm" />
+  <HelpKINode Title="CreateWebHostBuilder method" Url="html/66c24de9-1537-8bb2-1c0b-136bbee08f24.htm" />
+  <HelpKINode Title="Down method">
+    <HelpKINode Title="InitialMigration.Down Method " Url="html/2e7859d9-86d8-71b3-fa1f-345e6a4e4aad.htm" />
+    <HelpKINode Title="StudentTeacherRelationsModel.Down Method " Url="html/ccc00b34-7596-ff04-9884-4bf541ac7fe7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Email property">
+    <HelpKINode Title="TrialRequest.Email Property " Url="html/e1ba8fa7-c7a4-c746-5ea5-4554e43db18c.htm" />
+    <HelpKINode Title="User.Email Property " Url="html/a0e78c90-c230-fcdf-6922-6c9c27b52b0a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Experience property" Url="html/fb54a250-0f37-187e-eff4-56ec3fafcbd0.htm" />
+  <HelpKINode Title="GetTrialRequests method" Url="html/bfdca306-7113-0915-3db3-93f7b6066b69.htm" />
+  <HelpKINode Title="GetUser method" Url="html/3b036440-9276-b88d-891e-0b93f2056843.htm" />
+  <HelpKINode Title="GetUsers method" Url="html/9b366fe8-2c37-adab-a493-ffd6487a0227.htm" />
+  <HelpKINode Title="HasInstrument property" Url="html/8611f9bf-87f7-86c5-c14e-2ae597029585.htm" />
+  <HelpKINode Title="Id property">
+    <HelpKINode Title="StudentTeacherSelectedRelation.Id Property " Url="html/17d3a0ea-5037-d55b-f643-0d83ad983d8a.htm" />
+    <HelpKINode Title="TrialRequest.Id Property " Url="html/87ffeeab-f907-a254-0161-2f5a144d0705.htm" />
+    <HelpKINode Title="User.Id Property " Url="html/2d18ef47-1741-3894-be34-67bbba708e02.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InitialMigration class">
+    <HelpKINode Title="InitialMigration Class" Url="html/5b4de5ac-a530-2806-61c5-8a3bb6ec56e6.htm" />
+    <HelpKINode Title="constructor" Url="html/9f72aeeb-123d-226c-4e89-cd27f90a9db8.htm" />
+    <HelpKINode Title="methods" Url="html/6bdaa692-5171-d1c5-dfdd-a69026366bb7.htm" />
+    <HelpKINode Title="properties" Url="html/19d9d94b-ec3a-d305-2802-358624291667.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InitialMigration.BuildTargetModel method" Url="html/3e13073e-99c9-57ba-88c7-e28686877e97.htm" />
+  <HelpKINode Title="InitialMigration.Down method" Url="html/2e7859d9-86d8-71b3-fa1f-345e6a4e4aad.htm" />
+  <HelpKINode Title="InitialMigration.InitialMigration constructor" Url="html/9f72aeeb-123d-226c-4e89-cd27f90a9db8.htm" />
+  <HelpKINode Title="InitialMigration.Up method" Url="html/6ad1c2cc-aad9-20ce-f0f3-bf1417330f47.htm" />
+  <HelpKINode Title="Instrument property" Url="html/ecfa0a0b-435d-c001-6858-482454091da0.htm" />
+  <HelpKINode Title="Main method" Url="html/bcc92ebf-7832-459b-c55e-461db6a6333e.htm" />
+  <HelpKINode Title="Name property" Url="html/2c9d69b0-2327-4561-ec4c-d61ec1005b1e.htm" />
+  <HelpKINode Title="Notes property" Url="html/f2c795fe-e076-4508-d688-54573d016419.htm" />
+  <HelpKINode Title="ParentName property" Url="html/df3aa6e3-65c9-159e-9fd9-59e442b44b67.htm" />
+  <HelpKINode Title="Password property" Url="html/1b9db431-4aee-7a80-febc-159dbf9d3fc1.htm" />
+  <HelpKINode Title="Phone property" Url="html/10687243-1466-d240-0760-0703736ad17e.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/328558db-ef73-62a3-b4b1-afbe10388981.htm" />
+    <HelpKINode Title="constructor" Url="html/70635aa4-e000-f71b-6e35-e37e00929782.htm" />
+    <HelpKINode Title="methods" Url="html/59be7d67-f786-7f9e-4169-23a73ca28993.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.CreateWebHostBuilder method" Url="html/66c24de9-1537-8bb2-1c0b-136bbee08f24.htm" />
+  <HelpKINode Title="Program.Main method" Url="html/bcc92ebf-7832-459b-c55e-461db6a6333e.htm" />
+  <HelpKINode Title="Program.Program constructor" Url="html/70635aa4-e000-f71b-6e35-e37e00929782.htm" />
+  <HelpKINode Title="Region property">
+    <HelpKINode Title="TrialRequest.Region Property " Url="html/467ccac6-3850-a402-a1fa-f8690da53eb7.htm" />
+    <HelpKINode Title="User.Region Property " Url="html/4e03e5d7-fc39-34d7-8841-9da8befced41.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Role class">
+    <HelpKINode Title="Role Class" Url="html/0878666c-f313-004e-b68b-5d029e44c17a.htm" />
+    <HelpKINode Title="fields" Url="html/b8d3b439-98b9-9c58-f0a9-48493812c7ca.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Role property" Url="html/ebba72fd-d0af-26dd-f8b3-918b7c8d2d26.htm" />
+  <HelpKINode Title="Role.Admin field" Url="html/887a33e6-56cf-bf32-d812-e1dfcad19a21.htm" />
+  <HelpKINode Title="Role.User field" Url="html/61e76c12-5918-718a-c401-c8bb1a2dd19c.htm" />
+  <HelpKINode Title="SelectStudent method" Url="html/d89f411f-3975-a63e-fc90-32814d6591bb.htm" />
+  <HelpKINode Title="Signin method" Url="html/e0153b89-ee0d-d4cf-ec9e-1135ee722d58.htm" />
+  <HelpKINode Title="Startup class">
+    <HelpKINode Title="Startup Class" Url="html/299a440c-baec-44b7-9d0c-ddb8a8587d00.htm" />
+    <HelpKINode Title="constructor" Url="html/d647ae8f-b269-8996-9f1a-5c1e7ece8a40.htm" />
+    <HelpKINode Title="methods" Url="html/859d3010-5a89-bc23-c1e8-a49367931bec.htm" />
+    <HelpKINode Title="properties" Url="html/2dee222f-da88-606d-ba59-e9a09c31a01c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Startup.Configuration property" Url="html/81c1da90-b0ea-ebea-e1b4-75ea0cf77890.htm" />
+  <HelpKINode Title="Startup.Configure method" Url="html/a5c79f71-20f6-e49b-fcb4-fbe4f4706116.htm" />
+  <HelpKINode Title="Startup.ConfigureServices method" Url="html/cbae851d-eaa1-0a7e-feb9-25e97b2e9778.htm" />
+  <HelpKINode Title="Startup.Startup constructor" Url="html/d647ae8f-b269-8996-9f1a-5c1e7ece8a40.htm" />
+  <HelpKINode Title="StudentBirthDate property" Url="html/601a0808-4704-f0ad-b739-6dc0e6296391.htm" />
+  <HelpKINode Title="StudentName property" Url="html/64f5d061-8aca-8d53-4ecf-370dd4dbe194.htm" />
+  <HelpKINode Title="StudentTeacherRelationsModel class">
+    <HelpKINode Title="StudentTeacherRelationsModel Class" Url="html/e8babd00-eee3-ebe3-57e4-103110b49628.htm" />
+    <HelpKINode Title="constructor" Url="html/5bfaa25a-56fc-e218-f379-bf8a9062ae30.htm" />
+    <HelpKINode Title="methods" Url="html/7ad9ca20-a1a9-0837-8c2d-ca404e941710.htm" />
+    <HelpKINode Title="properties" Url="html/69e59cf7-d1ef-aa18-af68-b7d28cfe3cdb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StudentTeacherRelationsModel.BuildTargetModel method" Url="html/db142ce2-d7e2-4be0-9949-e139e996b00a.htm" />
+  <HelpKINode Title="StudentTeacherRelationsModel.Down method" Url="html/ccc00b34-7596-ff04-9884-4bf541ac7fe7.htm" />
+  <HelpKINode Title="StudentTeacherRelationsModel.StudentTeacherRelationsModel constructor" Url="html/5bfaa25a-56fc-e218-f379-bf8a9062ae30.htm" />
+  <HelpKINode Title="StudentTeacherRelationsModel.Up method" Url="html/3aa87b9b-5c04-9c9f-5670-0f40d6249d57.htm" />
+  <HelpKINode Title="StudentTeacherSelectedRelation class">
+    <HelpKINode Title="StudentTeacherSelectedRelation Class" Url="html/4ec40bf7-b256-82c2-f74b-5cacf103e47e.htm" />
+    <HelpKINode Title="constructor" Url="html/00352b67-70bb-eca9-83c8-598bbcbe0d87.htm" />
+    <HelpKINode Title="methods" Url="html/09086e26-1889-a7a7-214f-c1cc526f9a6f.htm" />
+    <HelpKINode Title="properties" Url="html/e4de4a84-adca-0bdb-e049-04e3a5d76c9c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StudentTeacherSelectedRelation.Id property" Url="html/17d3a0ea-5037-d55b-f643-0d83ad983d8a.htm" />
+  <HelpKINode Title="StudentTeacherSelectedRelation.StudentTeacherSelectedRelation constructor" Url="html/00352b67-70bb-eca9-83c8-598bbcbe0d87.htm" />
+  <HelpKINode Title="StudentTeacherSelectedRelation.TeacherId property" Url="html/2fb01d67-572a-9384-b2b5-b8c0d6f9bb0d.htm" />
+  <HelpKINode Title="StudentTeacherSelectedRelation.TrialRequestId property" Url="html/1de86e65-1749-08f3-6a22-1a3b60ad086b.htm" />
+  <HelpKINode Title="TeacherId property" Url="html/2fb01d67-572a-9384-b2b5-b8c0d6f9bb0d.htm" />
+  <HelpKINode Title="TeacherSelections property" Url="html/ad7eb3f7-4048-df74-17a5-60e079561394.htm" />
+  <HelpKINode Title="Token property" Url="html/8d284166-a633-c5c5-06a4-0c5966043961.htm" />
+  <HelpKINode Title="TrialRequest class">
+    <HelpKINode Title="TrialRequest Class" Url="html/36fbbc1b-0db5-baf7-6f4c-2591ca1e6478.htm" />
+    <HelpKINode Title="constructor" Url="html/295ab46a-a137-5bb8-daf5-e51aafa02946.htm" />
+    <HelpKINode Title="methods" Url="html/f4ef909a-4dbb-df29-04db-26daffc44edc.htm" />
+    <HelpKINode Title="properties" Url="html/7cc7120a-19be-cf93-49e2-473a8acbad26.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrialRequest.Address property" Url="html/9b11d853-af04-1eab-95a2-5b1f7eec87ae.htm" />
+  <HelpKINode Title="TrialRequest.Availability property" Url="html/af5e5858-d49f-bde5-5579-5f358532d824.htm" />
+  <HelpKINode Title="TrialRequest.City property" Url="html/fa3a2cba-b7ef-a257-0e2f-1128b26b5633.htm" />
+  <HelpKINode Title="TrialRequest.Email property" Url="html/e1ba8fa7-c7a4-c746-5ea5-4554e43db18c.htm" />
+  <HelpKINode Title="TrialRequest.Experience property" Url="html/fb54a250-0f37-187e-eff4-56ec3fafcbd0.htm" />
+  <HelpKINode Title="TrialRequest.HasInstrument property" Url="html/8611f9bf-87f7-86c5-c14e-2ae597029585.htm" />
+  <HelpKINode Title="TrialRequest.Id property" Url="html/87ffeeab-f907-a254-0161-2f5a144d0705.htm" />
+  <HelpKINode Title="TrialRequest.Instrument property" Url="html/ecfa0a0b-435d-c001-6858-482454091da0.htm" />
+  <HelpKINode Title="TrialRequest.Notes property" Url="html/f2c795fe-e076-4508-d688-54573d016419.htm" />
+  <HelpKINode Title="TrialRequest.ParentName property" Url="html/df3aa6e3-65c9-159e-9fd9-59e442b44b67.htm" />
+  <HelpKINode Title="TrialRequest.Phone property" Url="html/10687243-1466-d240-0760-0703736ad17e.htm" />
+  <HelpKINode Title="TrialRequest.Region property" Url="html/467ccac6-3850-a402-a1fa-f8690da53eb7.htm" />
+  <HelpKINode Title="TrialRequest.StudentBirthDate property" Url="html/601a0808-4704-f0ad-b739-6dc0e6296391.htm" />
+  <HelpKINode Title="TrialRequest.StudentName property" Url="html/64f5d061-8aca-8d53-4ecf-370dd4dbe194.htm" />
+  <HelpKINode Title="TrialRequest.TrialRequest constructor" Url="html/295ab46a-a137-5bb8-daf5-e51aafa02946.htm" />
+  <HelpKINode Title="TrialRequest.ZipCode property" Url="html/1a44bc4d-305c-7b35-b21f-f41689a072e8.htm" />
+  <HelpKINode Title="TrialRequestController class">
+    <HelpKINode Title="TrialRequestController Class" Url="html/9b95785b-77c1-9ae4-d1ee-8a8b56a18756.htm" />
+    <HelpKINode Title="constructor" Url="html/49b41aa7-6850-3849-e0de-ba9a35918bee.htm" />
+    <HelpKINode Title="methods" Url="html/71d57bad-b7c8-80f9-f945-95d08a4bca70.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrialRequestController.AddNewTrialRequest method" Url="html/26c4fa8b-5383-c600-e2b9-f198173b62b9.htm" />
+  <HelpKINode Title="TrialRequestController.GetTrialRequests method" Url="html/bfdca306-7113-0915-3db3-93f7b6066b69.htm" />
+  <HelpKINode Title="TrialRequestController.SelectStudent method" Url="html/d89f411f-3975-a63e-fc90-32814d6591bb.htm" />
+  <HelpKINode Title="TrialRequestController.TrialRequestController constructor" Url="html/49b41aa7-6850-3849-e0de-ba9a35918bee.htm" />
+  <HelpKINode Title="TrialRequestController.TrialRequestDetailView method" Url="html/2e17dcdd-f845-3c4d-3655-25d83f117e5a.htm" />
+  <HelpKINode Title="TrialRequestDetailView method" Url="html/2e17dcdd-f845-3c4d-3655-25d83f117e5a.htm" />
+  <HelpKINode Title="TrialRequestId property" Url="html/1de86e65-1749-08f3-6a22-1a3b60ad086b.htm" />
+  <HelpKINode Title="TrialRequests property" Url="html/2e52c91a-54f4-7104-9f90-8369af387b53.htm" />
+  <HelpKINode Title="Up method">
+    <HelpKINode Title="InitialMigration.Up Method " Url="html/6ad1c2cc-aad9-20ce-f0f3-bf1417330f47.htm" />
+    <HelpKINode Title="StudentTeacherRelationsModel.Up Method " Url="html/3aa87b9b-5c04-9c9f-5670-0f40d6249d57.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User class">
+    <HelpKINode Title="User Class" Url="html/f70c46f9-ff9c-dd67-5439-cdf23ad5de9f.htm" />
+    <HelpKINode Title="constructor" Url="html/0d3f680b-a2ad-51f4-182f-5d69b468d3f9.htm" />
+    <HelpKINode Title="methods" Url="html/c739e0b9-a14c-8eaa-41ce-7d51993e3f8b.htm" />
+    <HelpKINode Title="properties" Url="html/f86c3e57-3116-834f-3206-818ec7b6aa0f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="User field" Url="html/61e76c12-5918-718a-c401-c8bb1a2dd19c.htm" />
+  <HelpKINode Title="User.Address property" Url="html/b09e7837-d2e7-039c-0bf3-22c5dd2a98b2.htm" />
+  <HelpKINode Title="User.City property" Url="html/04432109-4a28-c75b-4569-83ac5b1f6930.htm" />
+  <HelpKINode Title="User.Email property" Url="html/a0e78c90-c230-fcdf-6922-6c9c27b52b0a.htm" />
+  <HelpKINode Title="User.Id property" Url="html/2d18ef47-1741-3894-be34-67bbba708e02.htm" />
+  <HelpKINode Title="User.Name property" Url="html/2c9d69b0-2327-4561-ec4c-d61ec1005b1e.htm" />
+  <HelpKINode Title="User.Password property" Url="html/1b9db431-4aee-7a80-febc-159dbf9d3fc1.htm" />
+  <HelpKINode Title="User.Region property" Url="html/4e03e5d7-fc39-34d7-8841-9da8befced41.htm" />
+  <HelpKINode Title="User.Role property" Url="html/ebba72fd-d0af-26dd-f8b3-918b7c8d2d26.htm" />
+  <HelpKINode Title="User.Token property" Url="html/8d284166-a633-c5c5-06a4-0c5966043961.htm" />
+  <HelpKINode Title="User.User constructor" Url="html/0d3f680b-a2ad-51f4-182f-5d69b468d3f9.htm" />
+  <HelpKINode Title="User.ZipCode property" Url="html/276c7c96-e99b-175d-c707-c56ea97b82c0.htm" />
+  <HelpKINode Title="Users property" Url="html/5f97642a-888c-14ad-0e21-2bf4e5f7da2e.htm" />
+  <HelpKINode Title="UsersController class">
+    <HelpKINode Title="UsersController Class" Url="html/9cd3d4e8-0222-39f0-a50b-b9a5894aa449.htm" />
+    <HelpKINode Title="constructor" Url="html/7801e1c6-1c97-bbd8-a3cb-aad5f98ba0bc.htm" />
+    <HelpKINode Title="methods" Url="html/2ffbfa18-c001-8cba-f9b8-a903ac43d808.htm" />
+    <HelpKINode Title="properties" Url="html/5efefcaf-bb6b-a61f-6c05-57785760cb5b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UsersController.AddUser method" Url="html/96d6e1e6-2011-cad7-6b4b-d7278530a934.htm" />
+  <HelpKINode Title="UsersController.Configuration property" Url="html/e8921679-fbf8-c621-f7f1-74cbac1864db.htm" />
+  <HelpKINode Title="UsersController.GetUser method" Url="html/3b036440-9276-b88d-891e-0b93f2056843.htm" />
+  <HelpKINode Title="UsersController.GetUsers method" Url="html/9b366fe8-2c37-adab-a493-ffd6487a0227.htm" />
+  <HelpKINode Title="UsersController.Signin method" Url="html/e0153b89-ee0d-d4cf-ec9e-1135ee722d58.htm" />
+  <HelpKINode Title="UsersController.UsersController constructor" Url="html/7801e1c6-1c97-bbd8-a3cb-aad5f98ba0bc.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/2a239f38-c240-4582-af45-7bda1315400a.htm" />
+    <HelpKINode Title="history" Url="html/cf297d50-5ef9-49d0-941e-da66666013f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/8b7b365b-7d2a-45a3-9b5f-003f37e1d095.htm" />
+  <HelpKINode Title="ZipCode property">
+    <HelpKINode Title="TrialRequest.ZipCode Property " Url="html/1a44bc4d-305c-7b35-b21f-f41689a072e8.htm" />
+    <HelpKINode Title="User.ZipCode Property " Url="html/276c7c96-e99b-175d-c707-c56ea97b82c0.htm" />
+  </HelpKINode>
+</HelpKI>
